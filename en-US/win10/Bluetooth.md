@@ -5,17 +5,15 @@ permalink: /en-US/win10/Bluetooth.htm
 lang: en-US
 ---
 
-##Bluetooth Support
-Windows IoT Core currently supports Bluetooth 4.0. Below are the supported profiles and USB dongles.
+## Bluetooth Support
+Windows IoT Core currently supports Bluetooth 4.0. A list of supported Bluetooth dongles can be found [here]({{site.baseurl}}/{{page.lang}}/win10/SupportedInterfaces.htm).
 
-### Supported Profiles
+### Supported Bluetooth Profiles
 Windows IoT Core currently supports the following Bluetooth profiles:
 
-1.  Bluetooth Basic Rate (BR): HID
+1.  Bluetooth Basic Rate (BR): [HID](http://www.amazon.com/IS11-BT05-Wireless-Bluetooth-Keyboard-Backlight/dp/B00JWUJPT6)
 
-2.  Bluetooth Basic Rate (BR): RFCOMM.
+2.  Bluetooth Basic Rate (BR): [RFCOMM](https://github.com/ms-iot/remote-wiring)
 
-3.  Bluetooth Low Energy (LE): GATT
+3.  Bluetooth Low Energy (LE): [GATT]({{site.baseurl}}/{{page.lang}}/win10/samples/BLEGatt.htm)
 
-### Supported USB Dongles
-We are currently supporting the <a name="Bluetooth_Dongle"></a>[Orico Model A Bluetooth dongle](http://www.amazon.com/ORICO-BTA-403-Bluetooth-Adapter-Compatible/dp/B00ESBRTMO/ref=sr_1_7?ie=UTF8&qid=1436917745&sr=8-7&keywords=bluetooth+4.0+orico){:target="_blank"}.
